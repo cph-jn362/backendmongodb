@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="createForm">
+        <input id="title" type="text" placeholder="Title" required>
+        <textarea id="description" placeholder="Description" required></textarea>
+        <input id="dateFrom" type="date" placeholder="Date from">
+        <input id="dateTo" type="date" placeholder="Date to">
+        <input id="country" type="text" placeholder="Country" required>
+        <input id="location" type="text" placeholder="Location" required>
+        <input id="googleMapsLink" type="text" placeholder="Google Maps link">
+        <input id="picture" type="file">
+        <input type="submit" value="Create">
+    </form>
+    <button onclick="getData()">Get</button>
+
+    <script src="server.js"></script>
+    <script src="index-script.js"></script>
+</body>
+</html>
